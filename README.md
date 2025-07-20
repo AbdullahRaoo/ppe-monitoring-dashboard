@@ -20,6 +20,8 @@
 
 The PPE Monitoring Dashboard is a cutting-edge web application designed to monitor and analyze Personal Protective Equipment compliance in industrial environments. Using real-time computer vision technology, it tracks safety compliance across multiple sites and provides comprehensive analytics for safety managers.
 
+Live demo: https://ppe-monitoring-dashboard.vercel.app/
+
 ### 🎯 Key Highlights
 
 - **Real-time PPE Detection** - Monitor safety compliance in real-time
