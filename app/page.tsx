@@ -25,7 +25,7 @@ const ppeComplianceData = [
 ]
 
 const sitePerformanceData = [
-  { name: "Site A", compliance: 85, violations: 12 },
+  { name: "Site A", compliance: 89, violations: 12 },
   { name: "Site B", compliance: 92, violations: 8 },
   { name: "Site C", compliance: 76, violations: 18 },
   { name: "Site D", compliance: 88, violations: 10 },
