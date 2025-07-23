@@ -37,7 +37,7 @@ const weeklyTrendData = [
   { day: "Wed", compliance: 78 },
   { day: "Thu", compliance: 88 },
   { day: "Fri", compliance: 92 },
-  { day: "Sat", compliance: 86 },
+  { day: "Sat", compliance: 89 },
   { day: "Sun", compliance: 84 },
 ]
 
