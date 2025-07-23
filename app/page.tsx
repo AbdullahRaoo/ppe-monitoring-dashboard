@@ -72,7 +72,7 @@ export default function Dashboard() {
             <Video className="h-4 w-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">24</div>
+            <div className="text-2xl font-bold">25</div>
             <p className="text-xs text-muted-foreground">All sites operational</p>
           </CardContent>
         </Card>
