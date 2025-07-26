@@ -20,8 +20,8 @@ import {
 } from "recharts"
 
 const ppeComplianceData = [
-  { name: "Compliant", value: 78, color: "#22c55e" },
-  { name: "Non-Compliant", value: 22, color: "#ef4444" },
+  { name: "Compliant", value: 78, color: "#e29901" },
+  { name: "Non-Compliant", value: 22, color: "#003e55" },
 ]
 
 const sitePerformanceData = [
@@ -112,8 +112,8 @@ export default function Dashboard() {
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
-                <Bar dataKey="compliance" fill="#22c55f" name="Compliance %" />
-                <Bar dataKey="violations" fill="#ef4444" name="Violations" />
+                <Bar dataKey="compliance" fill="#e29901" name="Compliance %" />
+                <Bar dataKey="violations" fill="#003e55" name="Violations" />
               </BarChart>
             </ResponsiveContainer>
           </CardContent>
@@ -160,7 +160,7 @@ export default function Dashboard() {
               <XAxis dataKey="day" />
               <YAxis />
               <Tooltip />
-              <Line type="monotone" dataKey="compliance" stroke="#22c55e" strokeWidth={2} />
+              <Line type="monotone" dataKey="compliance" stroke="#e29901" strokeWidth={2} />
             </LineChart>
           </ResponsiveContainer>
         </CardContent>
