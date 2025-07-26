@@ -45,7 +45,7 @@ const siteComparisonData = [
 ]
 
 const violationTypesData = [
-  { type: "Missing Hard Hat", count: 45, color: "#ef4444" },
+  { type: "Missing Hard Hat", count: 45, color: "#003e55" },
   { type: "No Safety Vest", count: 32, color: "#f97316" },
   { type: "Missing Gloves", count: 28, color: "#eab308" },
   { type: "No Eye Protection", count: 19, color: "#84cc16" },
@@ -124,8 +124,8 @@ export default function AnalyticsPage() {
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
-              <Bar dataKey="compliant" fill="#22c55e" name="Compliant" />
-              <Bar dataKey="nonCompliant" fill="#ef4444" name="Non-Compliant" />
+              <Bar dataKey="compliant" fill="#e29901" name="Compliant" />
+              <Bar dataKey="nonCompliant" fill="#003e55" name="Non-Compliant" />
             </BarChart>
           </ResponsiveContainer>
         </CardContent>
@@ -145,7 +145,7 @@ export default function AnalyticsPage() {
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip />
-                <Area type="monotone" dataKey="compliance" stroke="#22c55e" fill="#22c55e" fillOpacity={0.3} />
+                <Area type="monotone" dataKey="compliance" stroke="#e29901" fill="#e29901" fillOpacity={0.3} />
               </AreaChart>
             </ResponsiveContainer>
           </CardContent>
@@ -193,8 +193,8 @@ export default function AnalyticsPage() {
               <YAxis />
               <Tooltip />
               <Bar dataKey="hardHat" fill="#3b82f6" name="Hard Hat" />
-              <Bar dataKey="vest" fill="#22c55e" name="Safety Vest" />
-              <Bar dataKey="gloves" fill="#f59e0b" name="Gloves" />
+              <Bar dataKey="vest" fill="#e29901" name="Safety Vest" />
+              <Bar dataKey="gloves" fill="#22c55e" name="Gloves" />
               <Bar dataKey="boots" fill="#8b5cf6" name="Safety Boots" />
             </BarChart>
           </ResponsiveContainer>
