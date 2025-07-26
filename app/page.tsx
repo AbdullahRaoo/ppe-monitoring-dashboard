@@ -112,7 +112,7 @@ export default function Dashboard() {
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
-                <Bar dataKey="compliance" fill="#22c55e" name="Compliance %" />
+                <Bar dataKey="compliance" fill="#22c55f" name="Compliance %" />
                 <Bar dataKey="violations" fill="#ef4444" name="Violations" />
               </BarChart>
             </ResponsiveContainer>
