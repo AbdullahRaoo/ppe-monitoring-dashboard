@@ -221,7 +221,7 @@ export default function AnalyticsPage() {
                   <div className="font-bold text-green-600">{item.compliant}</div>
                 </div>
                 <div>
-                  <div className="text-muted-foreground">Non-Compliant</div>
+                  <div className="text-muted-foreground">Non Compliant</div>
                   <div className="font-bold text-red-600">{item.nonCompliant}</div>
                 </div>
               </div>
