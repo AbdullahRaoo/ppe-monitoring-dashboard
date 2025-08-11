@@ -102,10 +102,13 @@ export function MouseFollower() {
             className="w-8 h-8 rounded-full flex items-center justify-center shadow-lg backdrop-blur-sm border border-white/20"
             style={{ backgroundColor: `${ppeIcons[currentIcon].color}20` }}
           >
-            <ppeIcons[currentIcon].Icon 
-              className="w-4 h-4" 
-              style={{ color: ppeIcons[currentIcon].color }}
-            />
+            {(() => {
+              const IconComponent = ppeIcons[currentIcon].Icon
+              return <IconComponent 
+                className="w-4 h-4" 
+                style={{ color: ppeIcons[currentIcon].color }}
+              />
+            })()}
           </div>
           
           {/* Pulsing ring */}
