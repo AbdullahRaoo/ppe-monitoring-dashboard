@@ -77,9 +77,13 @@ Live demo: https://ppe-monitoring-dashboard.vercel.app/
 - **Time-based Trends** - Historical compliance data and patterns
 - **Violation Reports** - Detailed incident reporting and analysis
 
-### 👥 User Management
-- **Role-based Access** - Different access levels for managers and operators
-- **User Activity Logs** - Track user actions and system usage
+### � Authentication & Security
+- **Secure Login System** - Role-based authentication with animated UI
+- **Creative PPE Worker Animation** - Safety worker watches cursor and closes eyes during password entry
+- **Development Credentials** - Easy access to admin credentials via hint tooltip
+- **Session Management** - Persistent authentication with localStorage
+- **Protected Routes** - Automatic redirection for unauthorized access
+- **Logout Confirmation** - Safe session termination with confirmation dialog
 
 ### 🎨 Modern UI/UX
 - **Dark/Light Mode** - Seamless theme switching
@@ -89,7 +93,24 @@ Live demo: https://ppe-monitoring-dashboard.vercel.app/
 
 ---
 
-## 🚀 Getting Started
+## � Authentication & Access
+
+### Login Credentials (Development)
+- **Email:** `admin@ppe-safety.com`  
+- **Password:** `SafetyFirst2024!`
+
+> 💡 **Tip:** Click the info icon (ℹ️) in the top-right corner of the login form for quick access to these credentials.
+
+### Features
+- **Animated PPE Safety Worker** - Watches your cursor while you type
+- **Privacy Protection** - Worker closes eyes with safety glasses during password entry  
+- **Creative Interactions** - PPE-themed animations and visual feedback
+- **Secure Authentication** - Role-based access control with persistent sessions
+- **Logout Confirmation** - Safe session termination with animated confirmation dialog
+
+---
+
+## �🚀 Getting Started
 
 ### Prerequisites
 

@@ -18,6 +18,7 @@ import {
   LineChart,
   Line,
 } from "recharts"
+import { AuthGuard } from "@/components/auth-guard"
 
 const ppeComplianceData = [
   { name: "Compliant", value: 78, color: "#e29901" },
@@ -43,7 +44,8 @@ const weeklyTrendData = [
 
 export default function Dashboard() {
   return (
-    <div className="flex-1 space-y-4 p-6">
+    <AuthGuard>
+      <div className="flex-1 space-y-4 p-6">
       <div className="flex items-center justify-between space-y-2">
         <h2 className="text-3xl font-bold tracking-tight">Dashboard Overview</h2>
         <div className="flex items-center space-x-2">
@@ -131,7 +133,7 @@ export default function Dashboard() {
                   cx="50%"
                   cy="50%"
                   labelLine={false}
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                  label={({ name, percent }) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
                   outerRadius={80}
                   fill="#8884d8"
                   dataKey="value"
@@ -203,5 +205,6 @@ export default function Dashboard() {
         </CardContent>
       </Card>
     </div>
+    </AuthGuard>
   )
 }

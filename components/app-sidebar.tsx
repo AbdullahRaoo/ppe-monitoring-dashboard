@@ -26,8 +26,10 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   SidebarTrigger,
+  SidebarFooter,
   useSidebar,
 } from "@/components/ui/sidebar"
+import { UserMenu } from "@/components/user-menu"
 
 const menuItems = [
   {
@@ -108,6 +110,9 @@ export function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
+      <SidebarFooter className="border-t p-4">
+        <UserMenu />
+      </SidebarFooter>
     </Sidebar>
   )
 }
